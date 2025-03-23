@@ -1,15 +1,32 @@
 # Internshala Automation App  
+The Internshala Automation Project is a Python-based script designed to automate tasks on the Internshala platform. This project helps users apply for internships, filter job listings, and manage applications efficiently, reducing manual effort and saving time.
+Automated Login
+Secure login using stored credentials.
 
-Automates complete application procedure for any job/internship listing page on Internshala.   
+CAPTCHA handling (if required).
+
+🔹 Internship Search & Filtering
+Search for internships based on keywords, location, stipend, and duration.
+
+Filter internships according to user preferences.
+
+🔹 Auto-Apply for Internships
+Automatically submit applications to relevant internships.
+
+Customize application messages or cover letters.
+
+🔹 Application Tracking
+Maintain a log of applied internships.
+
+Check application status updates.
+
+🔹 Email/Notification Alerts (Optional)
+Get notified when new internships matching criteria are posted.
+🚀 Integrate AI-based resume matching for better internship recommendations.
+📅 Add scheduling features to apply at specific times.
+📲 Develop a mobile-friendly interface for monitoring applications.
 
 
-## Guide to setup  
 
-1/ Go to the properties of the Google Chrome app by right-clicking its icon, and selecting the 'Properties' option from the menu.  
-2/ Go to the Shortcut tab.  
-3/ In the Target field, add to the very end --remote-debugging-port=9222  
-It should look something like this:  
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222  
-4/ Click 'Apply', then 'Ok'.  
-5/ Restart Google Chrome.  
-6/ Now, you can run the script from your code editor.
+
+
